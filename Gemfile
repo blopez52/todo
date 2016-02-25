@@ -46,3 +46,7 @@ group :development do
   gem 'spring'
 end
 
+# Add Foundation to your Rails app
+gem 'foundation-rails'
+# Include 'rails_12factor' gem to enable all platform features
+gem 'rails_12factor', group: :production
